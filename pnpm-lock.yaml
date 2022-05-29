@@ -14,6 +14,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   husky: ^7.0.4
   jest: ^27.5.1
+  jotai: ^1.7.0
   lint-staged: ^12.4.1
   next: ^12.1.6
   prettier: ^2.6.2
@@ -26,6 +27,7 @@ specifiers:
 dependencies:
   '@radix-ui/colors': 0.1.8
   '@stitches/react': 1.2.8_react@18.1.0
+  jotai: 1.7.0_tgajdcwcfqxyh72yjgxojourrm
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -3226,6 +3228,44 @@ packages:
       - ts-node
       - utf-8-validate
     dev: true
+
+  /jotai/1.7.0_tgajdcwcfqxyh72yjgxojourrm:
+    resolution: {integrity: sha512-4KuvLcPuzzd86P2YHgU6cnu07HMDXgSyuakMNT/j+ihTN2cTjzmg9sCq59f4H9ImPe02wgdYBJ6LKIySNEAD/w==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@babel/core': '*'
+      '@babel/template': '*'
+      '@urql/core': '*'
+      immer: '*'
+      optics-ts: '*'
+      react: '>=16.8'
+      react-query: '*'
+      valtio: '*'
+      wonka: '*'
+      xstate: '*'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@babel/template':
+        optional: true
+      '@urql/core':
+        optional: true
+      immer:
+        optional: true
+      optics-ts:
+        optional: true
+      react-query:
+        optional: true
+      valtio:
+        optional: true
+      wonka:
+        optional: true
+      xstate:
+        optional: true
+    dependencies:
+      react: 18.1.0
+      react-query: 3.39.0_ef5jwxihqo6n7gxfmzogljlgcm
+    dev: false
 
   /js-sha3/0.8.0:
     resolution: {integrity: sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==}

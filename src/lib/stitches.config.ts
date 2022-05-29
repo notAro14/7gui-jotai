@@ -23,6 +23,9 @@ export const { styled, getCssText } = createStitches({
       "overlay": "$blackA9",
       "error": "$red11",
     },
+    radii: {
+      md: "5px",
+    },
     fonts: {
       main: "sans-serif",
     },
