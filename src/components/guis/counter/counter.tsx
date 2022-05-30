@@ -18,7 +18,7 @@ const CounterInput = () => {
   return (
     <Flex direction="column">
       <Label htmlFor="count">Counter value</Label>
-      <Input value={count} id="count" readOnly type="number" />
+      <Input disabled value={count} id="count" readOnly type="number" />
     </Flex>
   )
 }
@@ -64,7 +64,7 @@ const Counter: FC = () => {
         width: "fit-content",
       }}
     >
-      <Heading as="h2">Task 1 - Counter</Heading>
+      <Heading as="h2">Counter</Heading>
       <Flex
         direction="column"
         gap="4"
